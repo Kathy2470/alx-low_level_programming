@@ -2,7 +2,7 @@
 
 /**
   * main - prints alpha in lower and upper case
-  * Results: 0 (Success)
+  * Result: 0 (Success)
   */
 int main(void)
 {
@@ -15,6 +15,5 @@ int main(void)
 		putchar(ch);
 
 	putchar('\n');
-
 	return (0);
 }
