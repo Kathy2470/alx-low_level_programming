@@ -2,16 +2,16 @@
 
 /**
   * main - prints alphabet in lower case
-  * followed by a new line
   * Return: 0 (Success)
   */
 int main(void)
 {
-	char ch;
+	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
+	int i;
 
-	for (ch = 'a'; ch < = 'z'; ch++)
+	for (i = 0; i < = 26; i++)
 	{
-		putchar(ch);
+		putchar(alp[i]);
 	}
 	putchar('\n');
 	return (0);
