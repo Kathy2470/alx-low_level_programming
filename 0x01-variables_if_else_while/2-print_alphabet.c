@@ -2,15 +2,16 @@
 
 /**
   * main - prints alphabet in lower case
+  * followed by a new line
   * Return: 0 (Success)
   */
 int main(void)
 {
-	char lc;
+	char ch;
 
-	for (lc = 'a'; lc < = 'z'; lc++)
+	for (ch = 'a'; ch < = 'z'; ch++)
 	{
-		putchar(lc);
+		putchar(ch);
 	}
 	putchar('\n');
 	return (0);
