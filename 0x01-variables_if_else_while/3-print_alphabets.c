@@ -2,17 +2,20 @@
 
 /**
   * main - print the alphabet of lowercase and uppercase
-  * Description: followed by a new line
-  * Return: 0 (Success)
+  * Return: 0 no error, non zero if error
   */
 int main(void)
 {
-char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOOPQRSTUVWXYZ";
-	int i;
+	char i;
+	char j;
 
-	for (i = 0; i < 52; i++)
+	for (i = 'a'; i < 'Z'; i++)
 	{
-		putchar(alp[i]);
+		putchar(i);
+	}
+	for (j = 'A'; j < = 'Z'; j++)
+	{
+		putchar(j);
 	}
 	putchar('\n');
 	return (0);
