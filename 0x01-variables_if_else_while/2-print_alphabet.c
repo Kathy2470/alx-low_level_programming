@@ -2,16 +2,15 @@
 
 /**
   * main - prints alphabets lowercase
-  * Return: 0 (Success)
-  */
+  * Return: 0 if no error, non zero if error
+  **/
 int main(void)
 {
-	int n = 97;
+	char i;
 
-	while (n < = 122)
+	for (i = 'a'; i < = 'z'; i++)
 	{
-		putchar(n);
-		     n++;
+		putchar(i);
 	}
 	putchar('\n');
 	return (0);
