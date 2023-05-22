@@ -24,6 +24,9 @@ int _strlen(char *s)
 	return (i);
 }
 
+#ifndef DOG_H
+#define DOG_H
+
 /**
  * *_strcpy - copies the string pointed to by src
  * including the terminating null byte (\0)
@@ -52,6 +55,9 @@ char *_strcpy(char *dest, char *src)
 
 	return (dest);
 }
+
+#ifndef DOG_H
+#define DOG_H
 
 /**
  * new_dog - creates a new dog
