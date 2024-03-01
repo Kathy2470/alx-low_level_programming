@@ -1,0 +1,14 @@
+CC=gcc
+CFLAGS=-I.
+
+school: main.o school.o
+	$(CC) -o school main.o school.o
+
+main.o: main.c
+	$(CC) -c main.c $(CFLAGS)
+
+school.o: school.c
+	$(CC) -c school.c $(CFLAGS)
+
+clean:
+	rm -f *.o school
